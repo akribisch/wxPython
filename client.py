@@ -39,7 +39,7 @@ class LoginFrame(wx.Frame):
                 self.showDialog('Error', 'UserName Exist!', (200, 100))
             else:
                 self.Close()
-                ChatFrame(None, 2, title='ShiYanLou Chat Client', size=(500, 400))
+                ChatFrame(None, 2, title='Chat Client', size=(500, 400))
         except Exception:
             self.showDialog('Error', 'Connect Fail!', (195, 120))
 
