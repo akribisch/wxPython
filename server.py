@@ -200,7 +200,7 @@ if __name__ == '__main__':
 
     s = ChatServer(PORT)
     try:
-        print("chat serve run at '192.168.1.236:{0}'".format(PORT))
+        print("chat serve run at '127.0.0.1:{0}'".format(PORT))
         asyncore.loop()
     except KeyboardInterrupt:
         print("chat server exit")
